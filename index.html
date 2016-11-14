@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<script src="https://use.fontawesome.com/1c73f6a577.js"></script>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,300italic|Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<title>MD Project Assignment 1</title>
 </head>
 <body>
+	<div id="template"></div><!-- Delete this when done! --> 
 	<header>
-		<h1>Project Assignment</h1>
+		<div id="title-wrapper">
+			<img id="title-logo" src="assets/logo_icon.png">
+			<div id="title-content-wrapper">
+				<h1 id="display-title">Books.<span id="title-shade">&nbsp;Modern Developer</span></h1>
+				<p id="subtitle">The Largest Resource of Web and Mobile Development and Programming Books</p>
+			</div>
+			<form id="search-box">
+				<input id="search-input" type="text" placeholder="Search books by any keyword or title...">
+				<button type="submit" id="search-button">
+					<i class="fa fa-search"></i>
+				</button>
+			</form>
+		</div>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="#">UI/UX Design</a></li>
+				<li><a href="#">Web Programming</a></li>
+				<li><a href="#">Frontend Development</a></li>
+				<li><a href="#" class="selected">JavaScript</a></li>
+				<li><a href="#">Mobile Development</a></li>
+				<li><a href="#">Backend Development</a></li>
+			</ul>
+		</nav>
 	</header>
+
 	<main>
 		
 	</main>
