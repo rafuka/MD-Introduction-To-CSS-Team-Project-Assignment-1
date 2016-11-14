@@ -1,3 +1,214 @@
 * {
-	border: 0px;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
+
+#template { /* Delete this when done! */
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('assets/books.MD.png');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 1600px;
+	height: 3550px;
+	z-index: 9999;
+	margin: 0 auto;
+	opacity: 0.6;
+}
+
+body {
+	max-width: 1600px;
+	/* margin: 0 auto; Uncomment this when done! */
+}
+
+
+/* ================================================== *\
+					HEADER STYLES
+\* ================================================== */
+header {
+	background-image: url('assets/header_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#title-wrapper {
+	display: block;
+	height: 264px;
+    width: 680px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+
+#title-logo {
+    margin-left: 5px;
+}
+
+#title-content-wrapper {
+	display: inline-block;
+    vertical-align: top;
+    margin-left: 14px;
+    margin-top: 5px;
+    letter-spacing: -0.5px;
+}
+
+#display-title {
+	font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: white;
+}
+
+#title-shade {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	opacity: 0.7;
+	letter-spacing: -0.8px;
+}
+
+#subtitle {
+    letter-spacing: -0.1px;
+    margin-top: 2px;
+    color: #6d8808;
+    opacity: 0.9;
+}
+
+#search-box {
+    margin-top: 42px;
+    
+}
+
+#search-input {
+	height: 50px;
+	width: calc(100% - 68px);
+	font-size: 18px;
+    padding-left: 17px;
+    letter-spacing: -0.1px;
+    border-radius: 3px 0px 0px 3px;
+    color: #82992f;
+    background-color: #cedd99;
+    outline: none;
+    float: left;
+}
+
+#search-input:active {
+	outline: none;
+}
+
+#search-button {
+    padding: 0px;
+    height: 50px;
+    width: 63px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: white;
+    font-size: 27px;
+}
+
+#search-button:hover {
+	cursor: pointer;
+}
+
+#search-button:active {
+	outline: none;
+}
+
+#search-button i.fa-search {
+	color: #b2cf4e;
+}
+
+#main-nav {
+	height: 54px;
+	background-color: white;
+}
+
+#main-nav ul {
+	list-style: none;
+	text-align: center;
+}
+#main-nav ul li {
+	display: inline-block;
+}
+
+#main-nav ul li a {
+	display: inline-block;
+	color: #989898;
+	height: 54px;
+    line-height: 54px;
+    padding: 0 19px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#main-nav ul li a.selected,  #main-nav ul li a:hover {
+	color: #9fc128;
+}
+/* ================================================== *\
+				    END OF HEADER STYLES
+\* ================================================== */
+
+/* ========= The following code was taken from ======================
+             https://css-tricks.com/snippets/css/style-placeholder-text/ */
+::-webkit-input-placeholder {
+   color: #82992f;
+   opacity: 0.7;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #82992f; 
+   opacity: 0.7; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #82992f;  
+   opacity: 0.7;
+}
+
+:-ms-input-placeholder {  
+   color: #82992f;  
+   opacity: 0.7;
+}
+/* ================================================  */  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
