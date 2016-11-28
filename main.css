@@ -175,7 +175,7 @@ header#main-header {
 }
 
 .books {
-	margin: 0 auto 23px;
+	margin: 0 auto 21px;
 	background-color: rgb(255, 255, 255);
 	display: flex;
 	width: 1200px;
@@ -199,40 +199,56 @@ header#main-header {
 	max-width: 100%;
 }
 
-.book-presentation header {
-	padding-top: 1.5rem;
-	padding-left: 1.5rem;
+.book-presentation {
+	padding-left: 35px;
+	padding-right: 15px;
 }
 
-.book-presentation header h2 {
-	font-family: "Roboto";
-	font-size: 1.8rem;
+.book-presentation header {
+	padding-top: 1.5rem;
+
+}
+
+.book-title {
 	font-weight: 400;
+	margin-top: 10px;
+    font-size: 1.9em;
+    letter-spacing: -.3px;
 }
 
 .book-data {
-	font-family: "Roboto";
-	padding: 1.5rem 0 1rem;
+	padding-top: 15px;
+    margin-bottom: 17px;
 }
 
-.book-data p, .book-data input {
-	font-family: "Roboto";
-	font-size: 0.8rem;
+.author {
+	font-size: .9em;
+    letter-spacing: -.2px;
+}
+
+.author a {
+	color: #669fd4;
+}
+
+.book-data p, .follow {
 	display: inline-block;
 }
 
-.book-data input {
-	height: 1.5rem;
-	width: 3rem;
-	border: 1px solid rgb(76, 175, 80);
+.follow {
+	height: 24px;
+	width: 58px;
+	border: 1px solid #b7d35a;
 	background-color: white;
-	color: rgb(76, 175, 80);
+	color: #b7d35a;
+	margin-left: 6px;
+	font-size: .8em;
+	border-radius: 3px;
 }
 
 .book-published {
-	color: gray;
-	margin-right: 5%;
-	margin-left: 5%;
+	color: #b6b6b6;
+	margin-left: 31px;
+    font-size: .9em;
 }
 
 .book-data p span {
@@ -245,76 +261,85 @@ header#main-header {
 
 .book-desc {
 	float: left;
-	width: 60%;
+	width: 465px;
 }
 
 .book-desc p {
-	font-family: "Roboto";
-	margin-left: 1rem;
-	margin-top: 0.5rem;
-	margin-right: 1rem;
+	margin-top: 24px;
+    padding-right: 45px;
+    line-height: 24px;
+    letter-spacing: .1px;
+}
+
+.book-desc a {
+	display: block;
+	color: #669fd4;
+	margin-top: 25px;
+	margin-left: 0px;
 }
 
 .book-comment {
 	float: left;
 	width: 40%;
-}
-
-.book-content a {
-	display: block;
-	color: rgb(85, 120, 244);
-	font-family: "Roboto";
-	margin-left: 1rem;
-	padding-top: 0.4rem;
-}
-
-.book-comment {
-	border-left: 2px solid rgb(234, 237, 235);
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding-top: 4px;
+    padding-left: 28px;
 }
 
 .group-range {
-	margin-left: 1rem;
+
 }
 
 .group-rating {
-	margin-top: 1.6rem;
+	margin-top: 53px;
+	padding-right: 7px;
 }
 
 .group-rating a {
-	font-family: "Roboto";
-	padding-top: 3px;
-	font-size: 1rem;
-	line-height: 2rem;
-	vertical-align: 40%;
-	color: rgb(85, 120, 244);
-	border-bottom: 1px solid rgba(1, 1, 1, .2);
+	font-size: 1em;
+	color: #669fd4;
+	border-bottom: 1px solid #e9e9e9;
 	overflow: hidden;
+	display: block;
+	padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 4px;
+    margin-bottom: 2px;
+}
+
+.group-rating a:last-child {
+	border-bottom: none;
 }
 
 .group-rating a span{
 	float: left;
 }
 
-.group-rating a i{
-	line-height: 2rem;
-	vertical-align: center;
+.group-rating a i {
+	padding-top: 3px;
 	float: right;
+	font-size: .8em;
+    font-weight: 800;
 }
 
 .book-price {
-	margin-top: 8px;
 	float: left;
+	margin-top: 8px;
 	margin-right: 35px;
 }
 
 .book-price img {
 	display: inline-block;
 	float: left;
+	border-radius: 3px;
+	width: 160px;
 }
 
-.bookmark{
+.book-price-gumroad img {
+	border-right: 1px solid #eee;
+}
+
+.bookmark {
 	float: right;
 	position: relative;
 	text-align: center;
@@ -323,11 +348,12 @@ header#main-header {
 
 .bookmark p {
 	font-size: .9em;
+	color: #939393;
 }
 
 .bookmark img {
 	display: inline-block;
-	opacity: 0.5;
+	opacity: 0.4;
 }
 
 .display-price {
@@ -335,9 +361,10 @@ header#main-header {
 	background-color: white;
 	font-family: "Roboto";
 	color: #accd44;
-	font-size: 1.2rem;
-	padding: 0.5rem;
-	border-left: 1px solid rgb(201, 191, 191);
+	font-size: 1.1em;
+	padding: 10px;
+	padding-right: 12px;
+	padding-top: 12px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
@@ -353,92 +380,98 @@ header#main-header {
 	width: 100%;
 	height: 3px;
 	border-radius: 5px;
+	margin-bottom: 21px;
 }
 
 .book-range.yellow {
-	background: linear-gradient(to right, rgb(247, 221, 93) 80%, rgb(241, 239, 244) 80%);
+	background: linear-gradient(to right, #f7be26 80%, rgb(241, 239, 244) 80%);
 }
 
 .book-range.green {
-	background: linear-gradient(to right, green 75%, rgb(241, 239, 244) 75%);
+	background: linear-gradient(to right, #75c36a 75%, rgb(241, 239, 244) 75%);
 }
 
 .book-range.azure {
-	background: linear-gradient(to right, rgb(39, 158, 217) 95%, rgb(241, 239, 244) 95%);
+	background: linear-gradient(to right, #5ac9e3 95%, rgb(241, 239, 244) 95%);
 }
 
 .label-des {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	height: 1rem
+	margin-top: 20px;
+    margin-bottom: 2px;
 }
 
 .label-des label {
-	font-family: "Roboto";
-	font-size: 0.9rem;
+	font-size: 0.9em;
+	padding-left: 8px;
+	letter-spacing: -.1px;
 }
 
 .range-percent {
 	float: right;
+	padding-right: 6px;
 }
 
-label-des.yellow {
-	color: rgb(247, 221, 93);
+.label-des.yellow {
+	color: #f8ca50;
 }
 
 .label-des.green {
-	color: rgb(101, 237, 165);
+	color: #8fce86;
 }
 
 .label-des.azure {
-	color: rgb(39, 158, 217);
+	color: #4bbfdb;
 }
 
 .des-box {
 	display: inline-block;
-	width: 1.2rem;
-	height: 1.2rem;
-	font-family: "Roboto";
-	color: rgb(165, 172, 175);
+	width: 21px;
+	height: 17px;
 	text-align: center;
-	vertical-align: middle;
+	vertical-align: top;
 	font-size: 0.1em;
-	padding: 2px;
+	font-weight: 600;
 	position: relative;
+	margin-top: -3px;
+	margin-left: 3px;
+	border-radius: 2px 2px 2px 0px;
+	padding-top: 4px;
 }
 
 .des-box.yellow {
-	background: rgb(247, 221, 93);
+	background: #fdd978;
+	color: #cc9c1e;
 }
 
 .des-box.green {
-	background: rgb(101, 237, 165);
+	background: #abd8a5;
+	color: #66a55e;
 }
 
 .des-box.azure {
-	background: rgb(220, 238, 247);
+	background: #9ad6e8;
+	color: #2f95ae;
 }
 
 .des-box::after {
 	content: '';
-	position: absolute;
-	left: 0;
-	bottom: -0.2em;
-	height: 0;
-	width: 0;
-	border-right: 0.5em solid transparent;
+    position: absolute;
+    left: 0;
+    bottom: -0.4em;
+    width: 0;
+    border-right: .5em solid transparent;
 }
 
 .des-box.yellow::after {
-	border-top: 0.5em solid rgb(247, 221, 93);
+	border-top: 0.5em solid #fdd978;
 }
 
 .des-box.green::after {
-	border-top: 0.5em solid rgb(101, 237, 165);
+	border-top: 0.5em solid #abd8a5;
 }
 
 .des-box.azure::after {
-	border-top: 0.5em solid rgb(220, 238, 247);
+	border-top: 0.5em solid #9ad6e8;
 }
 
 #download-button{
