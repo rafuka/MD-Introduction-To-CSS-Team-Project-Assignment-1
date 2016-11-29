@@ -16,18 +16,16 @@ html {
 	background-color: white;
 }
 
-
-
 body {
 	max-width: 1600px;
 	margin: 0 auto;
 	background-color: #f5f5f5;
 }
 
-
 /* ================================================== *\
 					MAIN HEADER STYLES
 \* ================================================== */
+
 header#main-header {
 	background-image: url('assets/header_bg.jpg');
 	background-repeat: no-repeat;
@@ -104,7 +102,6 @@ header#main-header {
     border-radius: 0px 3px 3px 0px;
     background-color: white;
     font-size: 27px;
-
 }
 
 #search-button:hover {
@@ -149,6 +146,7 @@ header#main-header {
 #main-nav ul li a.selected,  #main-nav ul li a:hover {
 	color: #9fc128;
 }
+
 /* ================================================== *\
 				    END OF MAIN HEADER STYLES
 \* ================================================== */
@@ -166,8 +164,6 @@ header#main-header {
 	margin-top: 56px;
 	position: relative;
 }
-
-
 
 .book-inner-wrap {
 	margin: 0 auto 21px;
@@ -276,10 +272,6 @@ header#main-header {
 	padding-top: 4px;
     padding-left: 28px;
     border-left: 1px solid #eee;
-}
-
-.group-range {
-
 }
 
 .group-rating {
@@ -489,10 +481,9 @@ header#main-header {
 	color: #aaa;
 }
 
-
-
-
-
+/* ================================================== *\
+				END OF BOOK SECTION STYLES
+\* ================================================== */
 
 /* ================================================== *\
 					OPEN BOOK STYLES
@@ -588,7 +579,6 @@ header#main-header {
     font-size: 1.2em;
 }
 
-
 .book-content-display-tab ul {
   	display:inline-block;
   	list-style:none;
@@ -665,6 +655,7 @@ header#main-header {
 /* ================================================== *\
 					MAIN FOOTER STYLES
 \* ================================================== */
+
 #main-footer {
   	background-color: #3a3a3a;
   	padding: 20px 200px;
@@ -719,6 +710,7 @@ footer:after {
   	clear: both;
   	height: 0;
 }
+
 /* ================================================== *\
 				END OF MAIN FOOTER STYLES
 \* ================================================== */
@@ -747,40 +739,6 @@ footer:after {
    opacity: 0.7;
 }
 /* ================================================  */  
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
