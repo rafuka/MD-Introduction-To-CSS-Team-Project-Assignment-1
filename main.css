@@ -167,14 +167,22 @@ header#main-header {
 \* ================================================== */
 
 
-.books-section {
-	background-color: rgb(234, 237, 235);
-	height: 70%;
-	padding-top: 3rem;
-	padding-bottom: 10%;
+/* ================================================== *\
+				    BOOK SECTION STYLES
+\* ================================================== */
+
+.book {
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+	margin-bottom: 85px;
+	margin-top: 56px;
+	position: relative;
 }
 
-.books {
+
+
+.book-inner-wrap {
 	margin: 0 auto 21px;
 	background-color: rgb(255, 255, 255);
 	display: flex;
@@ -182,11 +190,18 @@ header#main-header {
     margin-top: 55px;
 }
 
-.book-presentation {
+.book-info {
 	width: 70%;
+	padding-left: 35px;
+	padding-right: 15px;
 }
 
-.books .book-img {
+.book-info header {
+	padding-top: 1.5rem;
+
+}
+
+.book-inner-wrap .book-img {
 	width: 30%;
 	height: 100%;
 }
@@ -197,16 +212,6 @@ header#main-header {
 	margin: 0;
 	max-height: 100%;
 	max-width: 100%;
-}
-
-.book-presentation {
-	padding-left: 35px;
-	padding-right: 15px;
-}
-
-.book-presentation header {
-	padding-top: 1.5rem;
-
 }
 
 .book-title {
@@ -283,6 +288,7 @@ header#main-header {
 	width: 40%;
 	padding-top: 4px;
     padding-left: 28px;
+    border-left: 1px solid #eee;
 }
 
 .group-range {
@@ -369,8 +375,7 @@ header#main-header {
 	border-bottom-right-radius: 5px;
 }
 
-.clear-fix {
-	overflow: hidden;
+.buy-options {
 	width: 1200px;
     margin: 0 auto;
 }
@@ -475,28 +480,26 @@ header#main-header {
 }
 
 #download-button{
-	font-family: "Roboto";
 	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 1.2rem;
-	margin: 0 25px 30px 10%;
-	width: 20%;
-	color: white;
-	background-color: rgb(152, 196, 0);
-	border-radius: 5px;
-	border-style: none;
+    padding-bottom: 10px;
+    font-size: 1.1em;
+    width: 254px;
+    color: white;
+    background-color: #98c400;
+    border-radius: 3px;
+    margin-top: 10px;
 }
 
 .load-books{
 	text-align: center;
-	margin: 130px;
 	margin-top: 50px;
+	margin-bottom: 375px;
 }
 
 .load-books a {
-	font-family: "Roboto";
-	font-size: 1.2rem;
-	color: rgb(188, 183, 188);
+	font-size: 1.2em;
+	font-weight: 300;
+	color: #aaa;
 }
 
 
@@ -504,6 +507,171 @@ header#main-header {
 
 
 
+/* ================================================== *\
+					OPEN BOOK STYLES
+\* ================================================== */
+
+.fader {
+	width: 499px;
+    height: 475px;
+    position: absolute;
+    top: 0px;
+    background-color: #eee;
+    opacity: 0.9;
+}
+
+.book-content-display-right {
+	width: 770px;
+    height: 475px;
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    right: -69px;
+    
+}
+
+.book-content-display-wrapper {
+  	display:inline-block;
+  	width: 91%;
+  	height: 475px;
+  	border: 3px solid #cbe9e7;
+  	background-color: white;
+}
+
+.book-content-display-tab {
+  	display:inline-block;
+  	height: 60%;
+  	width: 5%;
+  	vertical-align:top;
+}
+
+.book-content-display-left header {
+	padding-top: 21px;
+	padding-left: 21px;
+}
+
+.book-content-display-left header h2 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.book-desc-ex {
+	float: left;
+	width: 100%;
+}
+
+.book-desc-ex p {
+	margin: 28px;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.book-content-ex a {
+	display: block;
+	color: #3183c9;
+	margin-left: 28px;
+	padding-top: 6px;
+}
+
+.book-keyword {
+  	padding: 5px 12px;
+    height: 45px;
+    font-size: 1.1em;
+    width: 606px;
+    border: 1px solid #ddd;
+    color: #333;
+    margin-top: 42px;
+    margin-left: 40px;
+    border-radius: 3px;
+}
+
+.book-keyword:focus {
+	outline: none;
+}
+
+.book-content-display {
+  	margin: 37px;
+  	height: 308px;
+  	overflow: auto;
+}
+
+.remove {
+  	line-height: 60px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+.book-content-display-tab ul {
+  	display:inline-block;
+  	list-style:none;
+    margin-top: 10px;
+}
+
+.book-content-display-tab ul li {
+  	writing-mode: vertical-rl;
+  	width: 35px;
+    line-height: 35px;
+}
+
+.book-content-display-tab ul li.active {
+  	background-color: #cbe9e7;
+}
+
+.book-content-display-tab ul li.active a {
+  	color: #02a5cb;
+}
+
+.book-content-display-tab ul li a {
+    font-size: 15px;
+    color: #47a2af;
+    padding: 18px 10px;
+}
+
+.book-content-display p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.book-content-display p span.span-left {
+  	float: left;
+}
+
+.book-content-display p span.span-right {
+  	float: right;
+  	padding-right: 40px;
+}
+
+.book-content-display > p {
+  	overflow: hidden;
+}
+
+.search-key {
+	padding: 5px;
+	background-color: #d5edd2;
+}
+
+::-webkit-scrollbar {
+  	width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  	background-color: #b7b7b7;
+  	border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+  	background-color: #dae5ea;
+  	height: 1px;
+}
+
+
+
+/* ================================================== *\
+				END OF OPEN BOOK STYLES
+\* ================================================== */
 
 
 
@@ -517,40 +685,59 @@ header#main-header {
 					MAIN FOOTER STYLES
 \* ================================================== */
 #main-footer {
-  background-color: #3a3a3a;
-  padding: 20px 0;
-  color: #4f4f4f;
+  	background-color: #3a3a3a;
+  	padding: 20px 200px;
+  	color: #4f4f4f;
+  	height: 180px;
 }
-#main-footer .col-left {
-  float: left;
+
+.footer-left, .footer-right {
+	display: inline-block;
+    margin-top: 50px;
 }
-#main-footer .col-right {
-  float: right;
+
+.footer-right {
+	float: right;
+	font-size: .9em;
 }
-#main-footer p {
-  margin: 0;
-  vertical-align: middle;
+
+.footer-right p {
+	color: #808080;
 }
-#main-footer img {
-  vertical-align: middle;
-  margin-right: 10px;
+
+.footer-right address {
+	font-style: normal;
+	color: #aaa;
 }
-#main-footer .lmd-footer span {
-  color: lightgray;
+
+.footer-left img {
+	display: inline-block;
+	vertical-align: middle;
 }
-#main-footer a {
-  color: #c7c7c7;
+
+.footer-left p {
+	font-family: 'Roboto Slab';
+	display: inline-block;
+    vertical-align: middle;
+    color: #a8a8a8;
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+.footer-left p span {
+	font-family: 'Roboto Slab';
+	color: #676767;
 }
 
 /* footer clearfix */
 footer:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: "";
-  clear: both;
-  height: 0;
- }
+  	visibility: hidden;
+  	display: block;
+  	font-size: 0;
+  	content: "";
+  	clear: both;
+  	height: 0;
+}
 /* ================================================== *\
 				END OF MAIN FOOTER STYLES
 \* ================================================== */
