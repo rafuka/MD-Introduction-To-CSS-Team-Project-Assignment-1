@@ -7,7 +7,7 @@ Task List:
 * <del>Main section</del> (done)
 
 
-[Demo Page Link](https://rafuka.github.io/MD-ProjectAssignment-1/)
+[Demo Page Link](https://rafuka.github.io/MD-Introduction-To-CSS-Team-Project-Assignment-1/)
 
  Created by: Rafael Garcia & Rouan Ulep
 
