@@ -16,24 +16,11 @@ html {
 	background-color: white;
 }
 
-#template { /* Delete this when done! */
-	/*display: none;*/
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-image: url('assets/books.MD.png');
-	background-position: 0 0;
-	background-repeat: no-repeat;
-	width: 1600px;
-	height: 3550px;
-	z-index: 9999;
-	margin: 0 auto;
-	opacity: 0.3;
-}
+
 
 body {
 	max-width: 1600px;
-	/* margin: 0 auto; Uncomment this when done! */
+	margin: 0 auto;
 	background-color: #f5f5f5;
 }
 
@@ -672,12 +659,6 @@ header#main-header {
 /* ================================================== *\
 				END OF OPEN BOOK STYLES
 \* ================================================== */
-
-
-
-
-
-
 
 
 
