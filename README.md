@@ -3,9 +3,11 @@
 
 Task List:
 * <del>Header</del> (done)
-* Footer
-* Main section
+* <del>Footer</del> (done)
+* <del>Main section</del> (done)
 
 
 [Demo Page Link](https://rafuka.github.io/MD-ProjectAssignment-1/)
+
+ Created by: Rafael Garcia & Rouan Ulep
 
