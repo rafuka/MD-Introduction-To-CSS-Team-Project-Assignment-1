@@ -12,3 +12,5 @@ Task List:
 
  Created by: Rafael Garcia & Rouan Ulep
 
+ > TODO: add validation for search form.
+
